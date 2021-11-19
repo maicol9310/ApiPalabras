@@ -1,17 +1,78 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SHAX\\source\\repos\\ContarPalabrasRepetidas\\ContarPalabrasRepetidas\\ContarPalabrasRepetidas.csproj": {}
+    "C:\\Users\\SHAX\\Desktop\\ApiPalabras\\ContarPalabrasRepetidas\\ContarPalabrasRepetidas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SHAX\\source\\repos\\ContarPalabrasRepetidas\\ContarPalabrasRepetidas\\ContarPalabrasRepetidas.csproj": {
+    "C:\\Users\\SHAX\\Desktop\\ApiPalabras\\ContarPalabrasRepetidas\\ContarPalabrasRepetidas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SHAX\\source\\repos\\ContarPalabrasRepetidas\\ContarPalabrasRepetidas\\ContarPalabrasRepetidas.csproj",
+        "projectUniqueName": "C:\\Users\\SHAX\\Desktop\\ApiPalabras\\ContarPalabrasRepetidas\\ContarPalabrasRepetidas.csproj",
         "projectName": "ContarPalabrasRepetidas",
-        "projectPath": "C:\\Users\\SHAX\\source\\repos\\ContarPalabrasRepetidas\\ContarPalabrasRepetidas\\ContarPalabrasRepetidas.csproj",
+        "projectPath": "C:\\Users\\SHAX\\Desktop\\ApiPalabras\\ContarPalabrasRepetidas\\ContarPalabrasRepetidas.csproj",
         "packagesPath": "C:\\Users\\SHAX\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SHAX\\source\\repos\\ContarPalabrasRepetidas\\ContarPalabrasRepetidas\\obj\\",
+        "outputPath": "C:\\Users\\SHAX\\Desktop\\ApiPalabras\\ContarPalabrasRepetidas\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SHAX\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\SHAX\\Desktop\\ApiPalabras\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\SHAX\\Desktop\\ApiPalabras\\Core\\Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\SHAX\\Desktop\\ApiPalabras\\Core\\Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SHAX\\Desktop\\ApiPalabras\\Core\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "C:\\Users\\SHAX\\Desktop\\ApiPalabras\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\SHAX\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SHAX\\Desktop\\ApiPalabras\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SHAX\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -50,9 +111,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

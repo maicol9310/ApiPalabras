@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Core
 {
-    class IEnumerableDelimiters
+    public class IEnumerableDelimiters
     {
         public IEnumerable<string> ListaPalabras(string palabras)
         {
